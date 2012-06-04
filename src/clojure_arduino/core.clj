@@ -23,8 +23,8 @@
   ;(digital-read board 3)
   (while true
     (check-mail board)
-    (Thread/sleep (* 3 60 1000))
     (if (> @cnt 0)
       (digital-write board 12 HIGH)
       (digital-write board 12 LOW))
-  (close board)))
+    (Thread/sleep (* 5 1000)))
+  (close board))
