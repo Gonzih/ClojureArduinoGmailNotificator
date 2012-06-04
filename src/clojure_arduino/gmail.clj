@@ -43,4 +43,4 @@
   (with-folder .getMessageCount))
 
 (defn last-message-id []
-  (.getMessageNumber (first (with-folder .getMessages))))
+  (.getMessageNumber (last (with-folder .getMessages))))
