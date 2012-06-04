@@ -26,5 +26,5 @@
     (if (> @cnt 0)
       (digital-write board 12 HIGH)
       (digital-write board 12 LOW))
-    (Thread/sleep (* 5 1000)))
+    (Thread/sleep (* 3 60 1000)))
   (close board))
