@@ -35,7 +35,7 @@
   (future
     (while true
       (check-mail)
-      (Thread/sleep (* 5 1000))))
+      (Thread/sleep (* 10 60 1000))))
 
   (while true
     (when (button-down?)
