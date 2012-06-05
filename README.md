@@ -1,8 +1,7 @@
 # clojure-arduino
 
-New Email Checker With Java Mail and Arduino
+[New Email Checker With Java Mail and Arduino](https://www.circuitlab.com/circuit/2537p9/arduino-clojure-new-mail-checker/)
 ![Arduino And Clojure](https://www.circuitlab.com/circuit/2537p9/screenshot/540x405/)
-[Cicruitlab link](https://www.circuitlab.com/circuit/2537p9/arduino-clojure-new-mail-checker/)
 
 ## Usage
 
